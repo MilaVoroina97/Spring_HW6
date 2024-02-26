@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    properties:
+      ddl-auto: create-drop
+      hibernate:
+        hbm2ddl:
+          auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:3367/notes_gb_db
+    username: admin
+    password: password
